@@ -1,0 +1,16 @@
+---
+cluster_name: mesosctl_centos_instance
+os: "Centos 7"
+os_family: RedHat
+ssh_key_path: ~/.vagrant.d/insecure_private_key
+ssh_port: 22
+ssh_user: vagrant
+dns_servers:
+  - 8.8.8.8
+  - 8.8.4.4
+masters:
+  - 172.17.11.101
+agents:
+  - 172.17.11.101
+registry:
+  - 172.17.11.101
